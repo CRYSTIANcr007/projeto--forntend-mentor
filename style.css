@@ -1,0 +1,87 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Verdana, Geneva, Tahoma ;
+}
+main{
+    width: 640px;
+    display: flex;
+    background-color: rgb(248, 246, 246);
+    box-shadow: 0px 0px 5px black;
+}
+#tela-1{
+    background-image: linear-gradient(to top, #6743FE, #322CE9);
+    height: 400px;
+    width: 320px;
+}
+.texto-m{
+    color: rgba(255, 255, 255, 0.623);
+    font-size: .5em;
+}
+.texto-medio{
+    text-align: center;
+    line-height: 1.5em;
+    color: white;
+    font-size: .7em;
+}
+
+
+
+
+
+#tela-2{
+    width: 320px;
+    height: 400px;
+}
+#letra-sumario{
+    font-size: 1em;
+    padding: 20px;
+    color: #000000c5; 
+}
+.tetra-topicos-sumario{
+    font-weight: 600; 
+    
+}
+#vermelho{
+    background-color: rgba(255, 0, 0, 0.050);
+    color: rgb(255, 0, 0.74);
+}
+#amarelo{
+    background-color: rgba(255, 251, 0, 0.103);
+    color: rgba(255, 174, 0, 0.74);
+}
+#verde{
+    background-color: rgba(0, 255, 200, 0.050);
+    color: rgba(0, 255, 98, 0.74);
+}
+#azul{
+    background-color: rgba(55, 0, 255, 0.050);
+    color: rgba(47, 0, 255, 0.74);
+}
+.container{
+    margin: auto;
+    margin-top: 15px;
+    width: 200PX;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;    
+    border-radius: 10px;
+}
+button{
+    font-weight: bold;
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #322CE9;
+    border: 1px solid blue;
+    box-shadow: 0px 0px 5px #04008391;
+}
+button:hover{
+    background-color: #6743FE;
+    border: 1px solid #6743FE;
+}
