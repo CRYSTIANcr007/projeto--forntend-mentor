@@ -4,16 +4,30 @@
     padding: 0;
     font-family: sans-serif, Verdana, Geneva, Tahoma ;
 }
-@media screen and (min-width: 640px){
-    main{
+@media screen and (min-width: 680px){
+    #corpo-tela-1e2{
         display: flex;
+        box-shadow: 0px 0px 5px black;
+        border-radius: 25px;
+    }
+    main{
         height: 100vh;
+        max-width: 640px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        
+        
     }
     div#tela-1{
         border-radius: 20px;
         max-width: 320px;
     }
+    div#tela-2{
+        max-width: 400px;
+    }
 }
+
 #tela-1{
 
     margin: auto;
@@ -60,40 +74,75 @@
 }
 #tela-2{
     margin: auto;
-    background-color: red;
+    background-color: white;
     width: 100%;
     min-width: 320px;
     height: 400px;
+    border-radius: 25px;
 }
 
 #letra-sumario{
     font-size: 1.5em;
     padding: 20px;
+    font-weight: normal;
 }
 
 .container{
     display: flex;
-    justify-content: space-around;padding: 20px;
+    justify-content: space-around;
+    padding: 20px;
     display: flex;
 }
 #vermelho.container{
-    align-items: center;
+    width: 300px;
+    background-color: rgba(255, 0, 0, 0.13);
+    margin: 10px auto;
+    border-radius: 10px;    
+    color: rgb(156, 0, 0);
 }
 
 
-#amarelo{
-
+#amarelo.container{
+    width: 300px;
+    background-color: rgba(255, 255, 0, 0.13);
+    margin: 10px auto;
+    border-radius: 10px;
+    color: rgb(255, 178, 30);
 }
 
-#verde{
-
+#verde.container{
+    width: 300px;
+    background-color: rgba(0, 128, 0, 0.13);
+    margin: 10px auto;
+    border-radius: 10px;
+    color: green;
 }
 
-#azul{
-
+#azul.container{
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.13);
+    margin: 10px auto;
+    border-radius: 10px;
+    color: blue;
 }
 
 .alinhamento-baseline{
+    width: 300px;
     padding-top: 10px;
     background-color: white;
+}
+button{
+    color: white;
+    background-color: #2E26E8;
+    border: 1px solid #2E26E8;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: #6542F9;
 }
